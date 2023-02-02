@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50%;
+  border-bottom: 2px solid red;
+  color: red;
+  width: 100px;
+  margin-left: 50%;
+}
+
+.buttons {
+}
+
+.before,
+.after,
+button {
+  border: none;
+  background-color: #f4f4f4;
+  color: gray;
+  padding: 20px;
+}
