@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 
-export default function () {
+export default function Page() {
   const pageNumber = useParams();
-  return <div path={pageNumber}>Page</div>;
+  return <span> {pageNumber.id}</span>;
 }
